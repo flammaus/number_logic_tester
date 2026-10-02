@@ -6,9 +6,10 @@
 #***NUMBER CONVERTER***
 
 #Numbers im testing converter on, change to test different ones
-numbers_to_convert = [13, 42, 255, 8]
+numbers_to_convert = [27, 42, 64, 15]
 
-print("***NUMBER CONVERTER***")
+print("\n***NUMBER CONVERTER***\n")
+
 for num in numbers_to_convert:
     #Format() is converting, 'b' = binary, 'x' = hex
     binary_version = format(num, 'b')
@@ -21,7 +22,7 @@ print()
 #A gate just takes 1s and 0s (on/off) and spits out a 1 or 0 based on a rule
 #Going through every possible combo of two inputs below (0+0, 0+1, 1+0, 1+1) to see the full truth table
 
-print("***LOGIC GATE TRUTH TABLES***")
+print("\n***LOGIC GATE TRUTH TABLES***")
 
 print("\nAND gate (output is 1 only if both inputs are 1):")
 for a in [0, 1]:
